@@ -1,0 +1,8 @@
+com/example/shipping/Shipment.class
+com/example/report/ReportGenerator.class
+com/example/report/ReportGeneratorService.class
+com/example/shipping/ShippingCalculator.class
+com/example/shipping/ShippingCalculatorService.class
+com/example/report/ReportData.class
+com/example/shipping/ShippingQuote.class
+com/example/report/ReportRequest.class
