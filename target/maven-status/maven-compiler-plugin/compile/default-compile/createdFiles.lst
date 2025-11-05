@@ -1,8 +1,8 @@
-com/example/shipping/Shipment.class
-com/example/report/ReportGenerator.class
-com/example/report/ReportGeneratorService.class
-com/example/shipping/ShippingCalculator.class
-com/example/shipping/ShippingCalculatorService.class
-com/example/report/ReportData.class
-com/example/shipping/ShippingQuote.class
-com/example/report/ReportRequest.class
+nl/blitz/shipping/Shipment.class
+nl/blitz/report/ReportRequest.class
+nl/blitz/report/ReportGeneratorService.class
+nl/blitz/report/ReportData.class
+nl/blitz/shipping/ShippingQuote.class
+nl/blitz/report/ReportGenerator.class
+nl/blitz/shipping/ShippingCalculatorService.class
+nl/blitz/shipping/ShippingCalculator.class
