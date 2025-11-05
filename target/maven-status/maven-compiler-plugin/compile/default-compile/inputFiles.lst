@@ -1,8 +1,8 @@
-/Users/rensbressers/FunProjects/blitz/blitz-exercise-repos/oop-exercises/solid-exercise-open-closed-principle/src/main/java/com/example/report/ReportData.java
-/Users/rensbressers/FunProjects/blitz/blitz-exercise-repos/oop-exercises/solid-exercise-open-closed-principle/src/main/java/com/example/report/ReportGenerator.java
-/Users/rensbressers/FunProjects/blitz/blitz-exercise-repos/oop-exercises/solid-exercise-open-closed-principle/src/main/java/com/example/report/ReportGeneratorService.java
-/Users/rensbressers/FunProjects/blitz/blitz-exercise-repos/oop-exercises/solid-exercise-open-closed-principle/src/main/java/com/example/shipping/ShippingCalculator.java
-/Users/rensbressers/FunProjects/blitz/blitz-exercise-repos/oop-exercises/solid-exercise-open-closed-principle/src/main/java/com/example/shipping/Shipment.java
-/Users/rensbressers/FunProjects/blitz/blitz-exercise-repos/oop-exercises/solid-exercise-open-closed-principle/src/main/java/com/example/shipping/ShippingQuote.java
-/Users/rensbressers/FunProjects/blitz/blitz-exercise-repos/oop-exercises/solid-exercise-open-closed-principle/src/main/java/com/example/shipping/ShippingCalculatorService.java
-/Users/rensbressers/FunProjects/blitz/blitz-exercise-repos/oop-exercises/solid-exercise-open-closed-principle/src/main/java/com/example/report/ReportRequest.java
+/private/tmp/solid-ocp/src/main/java/nl/blitz/shipping/ShippingCalculatorService.java
+/private/tmp/solid-ocp/src/main/java/nl/blitz/report/ReportGenerator.java
+/private/tmp/solid-ocp/src/main/java/nl/blitz/report/ReportGeneratorService.java
+/private/tmp/solid-ocp/src/main/java/nl/blitz/shipping/ShippingQuote.java
+/private/tmp/solid-ocp/src/main/java/nl/blitz/shipping/ShippingCalculator.java
+/private/tmp/solid-ocp/src/main/java/nl/blitz/report/ReportData.java
+/private/tmp/solid-ocp/src/main/java/nl/blitz/shipping/Shipment.java
+/private/tmp/solid-ocp/src/main/java/nl/blitz/report/ReportRequest.java
