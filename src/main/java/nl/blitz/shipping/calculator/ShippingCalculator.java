@@ -19,47 +19,35 @@ public class ShippingCalculator implements ShippingCalculatorService {
     @Override
     public ShippingQuote calculateShipping(Shipment shipment) {
         String shippingType = shipment.getShippingMethod();
-        return shippingMethods.stream()
-                .filter(s -> s.getShippingType().equalsIgnoreCase(shippingType))
-                .findFirst()
-                .map(s -> s.calculate(shipment))
-                .orElseThrow(() -> new IllegalArgumentException("Unsupported shipping method: " + shippingType));
+        return executeShipment(shipment, shippingType);
     }
     
     @Override
     public ShippingQuote calculateStandardShipping(Shipment shipment) {
-        return shippingMethods.stream()
-                .filter(s -> s.getShippingType().equalsIgnoreCase("STANDARD"))
-                .findFirst()
-                .map(s -> s.calculate(shipment))
-                .orElseThrow(() -> new IllegalArgumentException("Unsupported shipping method: STANDARD"));
+        return executeShipment(shipment, "STANDARD");
     }
     
     @Override
     public ShippingQuote calculateExpressShipping(Shipment shipment) {
-        return shippingMethods.stream()
-                .filter(s -> s.getShippingType().equalsIgnoreCase("EXPRESS"))
-                .findFirst()
-                .map(s -> s.calculate(shipment))
-                .orElseThrow(() -> new IllegalArgumentException("Unsupported shipping method: EXPRESS"));
+        return executeShipment(shipment, "EXPRESS");
     }
     
     @Override
     public ShippingQuote calculateOvernightShipping(Shipment shipment) {
-        return shippingMethods.stream()
-                .filter(s -> s.getShippingType().equalsIgnoreCase("OVERNIGHT"))
-                .findFirst()
-                .map(s -> s.calculate(shipment))
-                .orElseThrow(() -> new IllegalArgumentException("Unsupported shipping method: OVERNIGHT"));
+        return executeShipment(shipment, "OVERNIGHT");
     }
     
     @Override
     public ShippingQuote calculateInternationalShipping(Shipment shipment) {
+        return executeShipment(shipment, "INTERNATIONAL");
+    }
+
+    private ShippingQuote executeShipment(Shipment shipment, String shipmentMethod) {
         return shippingMethods.stream()
-                .filter(s -> s.getShippingType().equalsIgnoreCase("INTERNATIONAL"))
+                .filter(s -> s.getShippingType().equalsIgnoreCase(shipmentMethod))
                 .findFirst()
                 .map(s -> s.calculate(shipment))
-                .orElseThrow(() -> new IllegalArgumentException("Unsupported shipping method: INTERNATIONAL"));
+                .orElseThrow(() -> new IllegalArgumentException("Unsupported shipping method: " + shipmentMethod));
     }
 
 }
