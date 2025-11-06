@@ -23,7 +23,7 @@ public interface ReportGeneratorService {
      * @param request The report request containing data
      * @return The generated PDF report as a string
      */
-    String generatePDF(ReportRequest request);
+    // String generatePDF(ReportRequest request);
     
     /**
      * Generates a CSV report.
@@ -31,7 +31,7 @@ public interface ReportGeneratorService {
      * @param request The report request containing data
      * @return The generated CSV report as a string
      */
-    String generateCSV(ReportRequest request);
+    // String generateCSV(ReportRequest request);
     
     /**
      * Generates an HTML report.
@@ -39,7 +39,7 @@ public interface ReportGeneratorService {
      * @param request The report request containing data
      * @return The generated HTML report as a string
      */
-    String generateHTML(ReportRequest request);
+    // String generateHTML(ReportRequest request);
     
     /**
      * Generates a JSON report.
@@ -47,6 +47,8 @@ public interface ReportGeneratorService {
      * @param request The report request containing data
      * @return The generated JSON report as a string
      */
-    String generateJSON(ReportRequest request);
+    // String generateJSON(ReportRequest request);
+
+    // String generateXML(ReportRequest request);
 }
 
