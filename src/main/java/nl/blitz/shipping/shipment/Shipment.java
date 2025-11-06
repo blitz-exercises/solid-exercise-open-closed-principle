@@ -1,4 +1,4 @@
-package nl.blitz.shipping;
+package nl.blitz.shipping.shipment;
 
 /**
  * Data class representing shipment details.

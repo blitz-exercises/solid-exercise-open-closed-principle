@@ -1,4 +1,4 @@
-package nl.blitz.report;
+package nl.blitz.report.request;
 
 import java.util.List;
 
