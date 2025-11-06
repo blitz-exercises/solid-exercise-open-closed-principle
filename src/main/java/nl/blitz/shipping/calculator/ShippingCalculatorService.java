@@ -1,4 +1,7 @@
-package nl.blitz.shipping;
+package nl.blitz.shipping.calculator;
+
+import nl.blitz.shipping.shipment.Shipment;
+import nl.blitz.shipping.shipment.ShippingQuote;
 
 /**
  * Contract for shipping cost calculation operations.

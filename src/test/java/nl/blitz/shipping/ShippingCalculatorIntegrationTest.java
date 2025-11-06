@@ -1,5 +1,9 @@
 package nl.blitz.shipping;
 
+import nl.blitz.shipping.calculator.ShippingCalculator;
+import nl.blitz.shipping.calculator.ShippingCalculatorService;
+import nl.blitz.shipping.shipment.Shipment;
+import nl.blitz.shipping.shipment.ShippingQuote;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
