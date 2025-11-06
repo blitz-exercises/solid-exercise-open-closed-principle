@@ -1,4 +1,4 @@
-package nl.blitz.report;
+package nl.blitz.report.request;
 
 /**
  * Data class representing a report generation request.
